@@ -1,5 +1,5 @@
 // Change this IP to your Pi's current IP
-const ws = new WebSocket("ws://10.0.0.105:5000");
+const ws = new WebSocket("wss://10.0.0.105:5000");
 
 ws.onopen = () => console.log("Connected to server");
 
