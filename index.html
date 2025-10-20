@@ -2,45 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Scroll Remote Case Download</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Link</title>
   <style>
     body {
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       height: 100vh;
-      background: #0d1117;
-      color: #c9d1d9;
+      margin: 0;
       font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    a {
+      text-decoration: none;
+      color: #7289da;
+      font-size: 24px;
+      margin-bottom: 20px;
     }
     button {
-      background: #238636;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #7289da;
       color: white;
       border: none;
-      padding: 12px 24px;
-      border-radius: 8px;
-      font-size: 18px;
+      border-radius: 5px;
       cursor: pointer;
-      transition: 0.3s;
     }
     button:hover {
-      background: #2ea043;
+      background-color: #5b6eae;
     }
   </style>
 </head>
 <body>
-  <h1>Download Scroll Remote v1 Case</h1>
-  <button onclick="downloadSTL()">Download .STL</button>
-
-  <script>
-    function downloadSTL() {
-      const url = "https://raw.githubusercontent.com/zolwer88/zolwer88.github.io/main/Scroll%20remote%20v1%20body.stl";
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = "Scroll remote v1 body.stl";
-      a.click();
-    }
-  </script>
+  <a href="https://discord.gg/RpWzrtZj" target="_blank">https://discord.gg/RpWzrtZj</a>
+  <button onclick="window.open('https://discord.gg/RpWzrtZj', '_blank')">Go to Discord</button>
 </body>
 </html>
