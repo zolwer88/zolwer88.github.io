@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://www.amazon.com/MOGAOPI-Electronic-Electrolytic-Capacitors-Transistor/dp/B09237GYCD">
-    <title>Redirecting...</title>
-    <script>
-        // Fallback redirect in case meta refresh fails
-        window.location.href = "https://www.amazon.com/MOGAOPI-Electronic-Electrolytic-Capacitors-Transistor/dp/B09237GYCD";
-    </script>
+  <meta charset="UTF-8">
+  <title>Scroll Remote Case Download</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #0d1117;
+      color: #c9d1d9;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      background: #238636;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #2ea043;
+    }
+  </style>
 </head>
 <body>
-    <p>If you are not redirected automatically, <a href="https://www.amazon.com/MOGAOPI-Electronic-Electrolytic-Capacitors-Transistor/dp/B09237GYCD">click here</a>.</p>
+  <h1>Download Scroll Remote Case</h1>
+  <button onclick="downloadSTL()">Download .STL</button>
+
+  <script>
+    function downloadSTL() {
+      // if the .stl file is in the same folder as index.html
+      const url = "scroll remote v1 case.stl";
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = "scroll remote v1 case.stl";
+      a.click();
+    }
+  </script>
 </body>
 </html>
